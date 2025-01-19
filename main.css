@@ -1,9 +1,11 @@
 @media(max-width: 768px){
     .container{
         width: 100%;
+        height: 100vh;
     }
     .carousel-container{
-        width: 400px;
+        margin-top: 20px;
+        width: 80%;
         height: 70%;
         margin: 0 auto;
         overflow: hidden;
@@ -16,8 +18,8 @@
         will-change: transform;
     }
     .carousel-slide {
-        flex: 0 0 400px;
-        width: 400px; 
+        flex: 0 0 80%;
+        width: 80%; 
         height: 300px;
         overflow: hidden;
     }
