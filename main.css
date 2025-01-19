@@ -1,0 +1,107 @@
+@media(max-width: 768px){
+    .container{
+        width: 100%;
+    }
+    .carousel-container{
+        width: 400px;
+        height: 70%;
+        margin: 0 auto;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .carousel-track{
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+        will-change: transform;
+    }
+    .carousel-slide {
+        flex: 0 0 400px;
+        width: 400px; 
+        height: 300px;
+        overflow: hidden;
+    }
+    
+    .carousel-slide img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        display: block; 
+    }
+    
+    
+    .carousel-controls {
+        display: flex;
+        justify-content: center;
+        margin-top: 5px;
+    }
+    
+    .carousel-button {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    .carousel-button:hover {
+        background-color: #3e8e41;
+    }
+    
+
+}
+
+@media(min-width: 768px){
+    .container{
+        width: 100%;
+    }
+    .carousel-container {
+        width: 600px;
+        margin: 0 auto;
+        overflow: hidden; 
+        position: relative; 
+    }
+    
+    .carousel-track {
+        display: flex; 
+        transition: transform 0.5s ease-in-out; 
+        will-change: transform; 
+    }
+    
+    .carousel-slide {
+        flex: 0 0 600px; /* Match container width */
+        width: 600px; /* Explicitly set the slide width */
+        height: 450px; /* Slide height */
+        overflow: hidden; /* Hide any overflow content */
+    }
+    
+    .carousel-slide img {
+        width: 100%;
+        height: 100%;
+        object-fit:contain;
+        display: block; /* Eliminate extra space */
+    }
+    
+    
+    .carousel-controls {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    
+    .carousel-button {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    .carousel-button:hover {
+        background-color: #3e8e41;
+    }
+    
+    
+}
